@@ -4,6 +4,7 @@ import cesium from 'vite-plugin-cesium'
 import Pages from 'vite-plugin-pages'
 import { execSync } from 'child_process'
 import { readFileSync } from 'fs'
+import { resolve } from 'path'
 
 // 获取package.json版本信息
 const packageJson = JSON.parse(readFileSync('./package.json', 'utf-8'))
@@ -35,6 +36,11 @@ export default defineConfig({
       extensions: ['vue'],
     })
   ],
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, 'src'),
+    },
+  },
   define: {
     __APP_VERSION__: JSON.stringify(packageJson.version),
     __APP_NAME__: JSON.stringify(packageJson.name),
