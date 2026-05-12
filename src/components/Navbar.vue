@@ -8,7 +8,8 @@ const navItems = [
   { path: '/', label: '首页' },
   { path: '/about', label: '关于' },
   { path: '/build-info', label: '构建信息' },
-  { path: '/demo', label: '演示' }
+  { path: '/leaflet-demo', label: 'Leaflet演示' },
+  { path: '/engine-sim', label: '引擎联调' }
 ]
 
 const isActive = (path) => {

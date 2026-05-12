@@ -1,0 +1,59 @@
+{
+    "info": [
+        {
+            "messageNo": 16,
+            "positionDynamics": {
+                "dateTime": {
+                    "day": 14,
+                    "hour": 3,
+                    "year": 2025,
+                    "month": 12,
+                    "minute": 36,
+                    "second": 20
+                },
+                "addressNo": "693dc0c61a795d843f1a6a0d",
+                "areaAttributeR": {
+                    "lat": 0,
+                    "lon": 0,
+                    "speed": 0,
+                    "height": 0,
+                    "heading": 0
+                },
+                "platformInformation": {
+                    "platformType": 2,
+                    "equipmentCode": 0,
+                    "targetAttribute": 0
+                }
+            }
+        },
+        {
+            "messageNo": 16,
+            "positionDynamics": {
+                "dateTime": {
+                    "day": 14,
+                    "hour": 3,
+                    "year": 2025,
+                    "month": 12,
+                    "minute": 36,
+                    "second": 20
+                },
+                "addressNo": "693dc0cd1a795d84411a6a0d",
+                "areaAttributeR": {
+                    "lat": 25.16967777777778,
+                    "lon": 119.09270000000001,
+                    "speed": 0,
+                    "height": 0,
+                    "heading": 0
+                },
+                "platformInformation": {
+                    "platformType": 1,
+                    "equipmentCode": 0,
+                    "targetAttribute": 0
+                }
+            }
+        }
+    ],
+    "SceID": "693dc03d1a795d84351a6a0d",
+    "simTime": 13,
+    "messageNo": 16
+}

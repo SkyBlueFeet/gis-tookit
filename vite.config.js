@@ -42,8 +42,16 @@ export default defineConfig({
         target: "http://localhost:4326",
         changeOrigin: true,
       },
-      "/api/publish": {
-        target: "http://localhost:8091",
+      "/api/engine/messages": {
+        target: "http://127.0.0.1:8080",
+        changeOrigin: true,
+      },
+      "/api/engine/replay": {
+        target: "http://127.0.0.1:8080",
+        changeOrigin: true,
+      },
+      "/api/engine": {
+        target: "http://127.0.0.1:8080",
         changeOrigin: true,
       },
     },

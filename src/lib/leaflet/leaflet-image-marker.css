@@ -1,0 +1,11 @@
+.leaflet-image-marker {
+  background: transparent;
+  border: none;
+}
+
+.leaflet-image-marker__image {
+  display: block;
+  user-select: none;
+  pointer-events: none;
+  transform-origin: center center;
+}

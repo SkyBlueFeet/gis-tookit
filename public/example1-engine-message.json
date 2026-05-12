@@ -1,0 +1,279 @@
+{
+    "info": [
+        {
+            "addressNo": "693dc04f1a795d843d1a6a0d",
+            "messageNo": 1,
+            "armsTargetGRIs": {
+                "positionTime": {
+                    "positionTimes": {
+                        "hour": 0,
+                        "height": 0,
+                        "minute": 0,
+                        "second": 14,
+                        "latitude": 24.125977777777777,
+                        "longitude": 120.95692222222222
+                    },
+                    "positionSpeedGPI": {
+                        "speed": 0,
+                        "direction": 0
+                    }
+                },
+                "targetNumber": 1,
+                "interceptTime": {
+                    "day": 14,
+                    "hour": 3,
+                    "year": 2025,
+                    "month": 12,
+                    "minute": 36,
+                    "second": 21
+                },
+                "platformInformation": {
+                    "platformType": 2,
+                    "equipmentCode": 0,
+                    "targetAttribute": 0
+                }
+            }
+        },
+        {
+            "addressNo": "693dc0591a795d843e1a6a0d",
+            "messageNo": 1,
+            "armsTargetGRIs": {
+                "positionTime": {
+                    "positionTimes": {
+                        "hour": 0,
+                        "height": 0,
+                        "minute": 0,
+                        "second": 14,
+                        "latitude": 24.345702777777774,
+                        "longitude": 120.36320833333332
+                    },
+                    "positionSpeedGPI": {
+                        "speed": 0,
+                        "direction": 0
+                    }
+                },
+                "targetNumber": 2,
+                "interceptTime": {
+                    "day": 14,
+                    "hour": 3,
+                    "year": 2025,
+                    "month": 12,
+                    "minute": 36,
+                    "second": 21
+                },
+                "platformInformation": {
+                    "platformType": 1,
+                    "equipmentCode": 0,
+                    "targetAttribute": 0
+                }
+            }
+        },
+        {
+            "addressNo": "693dc8fb6bae5d84434c614d",
+            "messageNo": 1,
+            "armsTargetGRIs": {
+                "positionTime": {
+                    "positionTimes": {
+                        "hour": 0,
+                        "height": 0,
+                        "minute": 0,
+                        "second": 14,
+                        "latitude": 24.093016666666664,
+                        "longitude": 120.86224444444444
+                    },
+                    "positionSpeedGPI": {
+                        "speed": 0,
+                        "direction": 0
+                    }
+                },
+                "targetNumber": 3,
+                "interceptTime": {
+                    "day": 14,
+                    "hour": 3,
+                    "year": 2025,
+                    "month": 12,
+                    "minute": 36,
+                    "second": 21
+                },
+                "platformInformation": {
+                    "platformType": 2,
+                    "equipmentCode": 0,
+                    "targetAttribute": 0
+                }
+            }
+        },
+        {
+            "addressNo": "693dc03d1a795d84361a6a0d",
+            "messageNo": 1,
+            "armsTargetGRIs": {
+                "positionTime": {
+                    "positionTimes": {
+                        "hour": 0,
+                        "height": 0,
+                        "minute": 0,
+                        "second": 14,
+                        "latitude": 24.087525,
+                        "longitude": 120.93456944444445
+                    },
+                    "positionSpeedGPI": {
+                        "speed": 0,
+                        "direction": 0
+                    }
+                },
+                "targetNumber": 4,
+                "interceptTime": {
+                    "day": 14,
+                    "hour": 3,
+                    "year": 2025,
+                    "month": 12,
+                    "minute": 36,
+                    "second": 21
+                },
+                "platformInformation": {
+                    "platformType": 5,
+                    "equipmentCode": 0,
+                    "targetAttribute": 0
+                }
+            }
+        },
+        {
+            "addressNo": "693dc03d1a795d84371a6a0d",
+            "messageNo": 1,
+            "armsTargetGRIs": {
+                "positionTime": {
+                    "positionTimes": {
+                        "hour": 0,
+                        "height": 0,
+                        "minute": 0,
+                        "second": 14,
+                        "latitude": 24.277038888888885,
+                        "longitude": 120.493825
+                    },
+                    "positionSpeedGPI": {
+                        "speed": 0,
+                        "direction": 0
+                    }
+                },
+                "targetNumber": 5,
+                "interceptTime": {
+                    "day": 14,
+                    "hour": 3,
+                    "year": 2025,
+                    "month": 12,
+                    "minute": 36,
+                    "second": 21
+                },
+                "platformInformation": {
+                    "platformType": 5,
+                    "equipmentCode": 0,
+                    "targetAttribute": 0
+                }
+            }
+        },
+        {
+            "addressNo": "693dc03d1a795d84381a6a0d",
+            "messageNo": 1,
+            "armsTargetGRIs": {
+                "positionTime": {
+                    "positionTimes": {
+                        "hour": 0,
+                        "height": 0,
+                        "minute": 0,
+                        "second": 14,
+                        "latitude": 24.73159722222222,
+                        "longitude": 121.03710277777778
+                    },
+                    "positionSpeedGPI": {
+                        "speed": 0,
+                        "direction": 0
+                    }
+                },
+                "targetNumber": 6,
+                "interceptTime": {
+                    "day": 14,
+                    "hour": 3,
+                    "year": 2025,
+                    "month": 12,
+                    "minute": 36,
+                    "second": 21
+                },
+                "platformInformation": {
+                    "platformType": 5,
+                    "equipmentCode": 0,
+                    "targetAttribute": 0
+                }
+            }
+        },
+        {
+            "addressNo": "693dc03d1a795d843a1a6a0d",
+            "messageNo": 1,
+            "armsTargetGRIs": {
+                "positionTime": {
+                    "positionTimes": {
+                        "hour": 0,
+                        "height": 0,
+                        "minute": 0,
+                        "second": 14,
+                        "latitude": 24.863433333333333,
+                        "longitude": 120.98078333333333
+                    },
+                    "positionSpeedGPI": {
+                        "speed": 0,
+                        "direction": 0
+                    }
+                },
+                "targetNumber": 7,
+                "interceptTime": {
+                    "day": 14,
+                    "hour": 3,
+                    "year": 2025,
+                    "month": 12,
+                    "minute": 36,
+                    "second": 21
+                },
+                "platformInformation": {
+                    "platformType": 5,
+                    "equipmentCode": 0,
+                    "targetAttribute": 0
+                }
+            }
+        },
+        {
+            "addressNo": "693dc03d1a795d843b1a6a0d",
+            "messageNo": 1,
+            "armsTargetGRIs": {
+                "positionTime": {
+                    "positionTimes": {
+                        "hour": 0,
+                        "height": 0,
+                        "minute": 0,
+                        "second": 14,
+                        "latitude": 24.809875,
+                        "longitude": 120.977425
+                    },
+                    "positionSpeedGPI": {
+                        "speed": 0,
+                        "direction": 0
+                    }
+                },
+                "targetNumber": 8,
+                "interceptTime": {
+                    "day": 14,
+                    "hour": 3,
+                    "year": 2025,
+                    "month": 12,
+                    "minute": 36,
+                    "second": 21
+                },
+                "platformInformation": {
+                    "platformType": 5,
+                    "equipmentCode": 0,
+                    "targetAttribute": 0
+                }
+            }
+        }
+    ],
+    "SceID": "693dc03d1a795d84351a6a0d",
+    "simTime": 14,
+    "messageNo": 1
+}

@@ -12,43 +12,6 @@ import { createMuzzleFlashNoise } from "@/lib/muzzle-flash-noise";
 const cesiumContainer = ref(null);
 let viewer = null;
 
-const PUBLISH_BASE = import.meta.env.VITE_PUBLISH_BASE || "";
-
-function buildPublishUrl(path) {
-    return `${PUBLISH_BASE}${path}`;
-}
-
-async function loadPublishLayers(targetViewer) {
-    const response = await fetch(buildPublishUrl("/layers"));
-    if (!response.ok) {
-        throw new Error(`load publish layers failed: ${response.status}`);
-    }
-
-    const layers = await response.json();
-    if (!Array.isArray(layers)) {
-        throw new Error("invalid publish layers payload");
-    }
-
-
-    layers.forEach((layer) => {
-        if (!layer?.id) {
-            return;
-        }
-
-        const provider = new Cesium.UrlTemplateImageryProvider({
-            url: buildPublishUrl(
-                `/${encodeURIComponent(layer.id)}/xyz/{z}/{x}/{y}.png`,
-            ),
-            minimumLevel: Number.isInteger(layer.minZoom) ? layer.minZoom : 0,
-            maximumLevel: Number.isInteger(layer.maxZoom) ? layer.maxZoom : 22,
-            tilingScheme: new Cesium.WebMercatorTilingScheme(),
-            credit: `publish:${layer.id}`,
-        });
-
-        targetViewer.imageryLayers.addImageryProvider(provider);
-    });
-}
-
 onMounted(async () => {
     Cesium.Ion.defaultAccessToken =
         import.meta.env.VITE_CESIUM_ION_TOKEN ||
